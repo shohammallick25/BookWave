@@ -11,7 +11,7 @@ BookWave — A modern book platform blending knowledge, motivation, and creativi
 - Contact form and social links
 
 ## 🚀 Live Demo
-[BookWave on GitHub Pages](https://YOUR_USERNAME.github.io/BookWave/)
+[BookWave on GitHub Pages](https://shohammallick25.github.io/BookWave/)
 
 ## 🛠 Built With
 - HTML, CSS, JavaScript
