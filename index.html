@@ -10,6 +10,8 @@
     - primary meta tags
   -->
   <title>Shoham Mallick || BookWave - Read More And Make Success</title>
+  <link rel="manifest" href="./manifest.json">
+
   <meta name="title" content="Bookish - Read More And Make Success">
   <meta name="description"
     content="Read More And Make Success The Result Of Perfection. - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad harum quibusdam, assumenda quia explicabo.">
@@ -1013,6 +1015,15 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+    .then(reg => console.log('Service Worker Registered', reg))
+    .catch(err => console.error('Service Worker Failed', err));
+  }
+</script>
+
 
 </body>
 
