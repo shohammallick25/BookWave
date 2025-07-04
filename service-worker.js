@@ -4,7 +4,7 @@ const urlsToCache = [
   '/index.html',
   '/assets/css/style.css',
   '/assets/js/script.js',
-  '/assets/images/hero-banner.png',
+  './favicon.svg',
   // Add more assets as needed
 ];
 
